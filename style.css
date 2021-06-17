@@ -1,0 +1,41 @@
+
+header{
+  border-bottom: 2px solid #000;
+  width: 100%;
+    top: 30px;
+      margin-top: 0px;
+  
+}
+
+body{ background-color: #CDF0EA;
+
+}
+
+
+.amman{
+ background-image: url("https://www.unhcr.org/jo/wp-content/uploads/sites/60/2019/06/Amman.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 150%;
+ 
+}
+
+.aqapa{
+ background-image: url("https://s23835.pcdn.co/wp-content/uploads/2019/10/Jordan-Aqaba-Red-Sea-swimmig.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 150%;
+ 
+}
+
+
+.wadi-rum{
+ background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/1a/30/d8/6f/milky-way-ecolodge.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 150%;
+ 
+}
