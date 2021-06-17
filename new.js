@@ -3,7 +3,13 @@ confirm("We are glad you visited us, we wish you a pleasant visit")
 var name = prompt("what is your name?")
 alert ("welcome to jordan "+name)
 
-var x = prompt("what do you want to read from these (amman, aqapa ,wadirum)")
+ var x = prompt("what do you want to read from these (amman, aqapa ,wadirum)")
+
+
+while (x != "amman" && x != "aqapa" && x != "wadirum" )
+{
+x = prompt("please choose one");
+}
 
 if (x == "amman")
 {
@@ -21,8 +27,24 @@ if (x == "amman")
 
     document.write("<div>"+"<h3>"+"WADI RUM"+"</h3>"+"<p>" + "“The Valley of the Moon”, depicted as Mars in several Hollywood feature films Wadi Rum is an Arabian fairy-tale waiting to be discovered. Home to nomadic Bedouin tribes, Wadi Rum is a a quiet getaway of stars, sand, and sun; a perfect complement from Amman’s epicenter. Once inhabited by the Nabataeans of prehistoric times, Wadi Rum allows you to get lost in large ` landscapes and horizon lines. The calmness of the desert is sure calm your spirit and de-clutter your thoughts. Wadi Rum is waiting for you.  "+"</p>" +"<img src='https://media-cdn.tripadvisor.com/media/photo-s/1a/30/d8/6f/milky-way-ecolodge.jpg' alt='wadi-rum' width='500' height='250'>" + "</div> ")
  }
-    else {
-      alert("please choose one")
+var coun = prompt("how many photo want to see of " + x)
+
+ if (x == "amman")
+    for(var x=0; x<coun;x++) {
+
+ document.write("<img src='https://s23835.pcdn.co/wp-content/uploads/2019/04/Jordan-Amman-mosque-Tamara.jpg' alt='amman' width='500' height='250'>")
     }
- 
+
+
+    else if (x == "aqapa")
+    for(var x=0; x<coun;x++) {
+
+ document.write("<img src='https://s23835.pcdn.co/wp-content/uploads/2019/10/Jordan-Aqaba-Red-Sea-swimmig.jpg' alt='aqapa' width='500' height='250'>")
+}
+
+else if (x == "wadirum")
+    for(var x=0; x<coun;x++) {
+
+ document.write("<img src='https://media-cdn.tripadvisor.com/media/photo-s/1a/30/d8/6f/milky-way-ecolodge.jpg' alt='wadi-rum' width='500' height='250'>")
+    }
 
