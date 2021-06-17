@@ -7,6 +7,23 @@ header{
   
 }
 
+/* header ul {
+margin-top: 0px;
+    
+} */
+
+header ul li{
+display: inline-block;
+float: right;
+margin-top: -17px;
+padding-inline-start: 40px; 
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
 body{ background-color: #CDF0EA;
 
 }
