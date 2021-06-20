@@ -3,8 +3,11 @@ confirm("We are glad you visited us, we wish you a pleasant visit")
 var name = prompt("what is your name?")
 alert ("welcome to jordan "+name)
 
+<<<<<<< HEAD
 function visitjordan (){
 
+=======
+>>>>>>> d10d8c03abf32e40731b9e28037dff78048348c0
  var x = prompt("what do you want to read from these (amman, aqapa ,wadirum)")
 
 
@@ -35,6 +38,22 @@ var coun = prompt("how many photo want to see of " + x)
     for(var x=0; x<coun;x++) {
 
  document.write("<img src='https://s23835.pcdn.co/wp-content/uploads/2019/04/Jordan-Amman-mosque-Tamara.jpg' alt='amman' width='500' height='250'>")
+<<<<<<< HEAD
+=======
+    }
+
+
+    else if (x == "aqapa")
+    for(var x=0; x<coun;x++) {
+
+ document.write("<img src='https://s23835.pcdn.co/wp-content/uploads/2019/10/Jordan-Aqaba-Red-Sea-swimmig.jpg' alt='aqapa' width='500' height='250'>")
+}
+
+else if (x == "wadirum")
+    for(var x=0; x<coun;x++) {
+
+ document.write("<img src='https://media-cdn.tripadvisor.com/media/photo-s/1a/30/d8/6f/milky-way-ecolodge.jpg' alt='wadi-rum' width='500' height='250'>")
+>>>>>>> d10d8c03abf32e40731b9e28037dff78048348c0
     }
 
 
